@@ -1,6 +1,23 @@
 import React from 'react'
-
+import { Link,useLocation } from 'react-router-dom'
 function Header() {
+
+    const activeMenu=(e)=>{
+        document.querySelectorAll('.submenu').forEach(
+            function(e){
+                e.classList.remove('active');
+            }
+        )
+        const childElement = e.target.parentElement.querySelector('.submenu');
+        if(childElement && childElement.classList.contains('submenu')){
+            childElement.classList.add('active');
+        }
+    }
+
+	const location = useLocation();
+	const isLinkActive = (path)=>{
+        return location.pathname == path ? 'active' : "";
+    }
   return (
 
     <header>
@@ -21,10 +38,11 @@ function Header() {
                             <div className="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><Link to="/" exact className="nav-link" activeClassName="active"> Home</Link></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="doctor.html">Doctors</a></li>
-                                        <li><a href="department.html">Department</a></li>
+                                        <li> <Link to="/doctor" className="nav-link" activeClassName="active">Doctors</Link></li>
+                                        <li> <Link to="/department" className="nav-link" activeClassName="active">Department</Link></li>
+                                        {/* <li><a href="department.html">Department</a></li> */}
                                         <li><a href="blog.html">Blog</a>
                                             <ul className="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
@@ -32,7 +50,8 @@ function Header() {
                                                 <li><a href="elements.html">Element</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        {/* <li><a href="contact.html">Contact</a></li> */}
+                                        <li> <Link to="/contact" className="nav-link" activeClassName="active">Contact</Link></li>
                                     </ul>
                                 </nav>
                             </div>
