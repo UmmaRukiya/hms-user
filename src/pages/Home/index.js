@@ -431,12 +431,103 @@ function Home(){
         {/* Team End */}
         {/*? Contact form Start */}
         <div className="contact-form-main">
-            <div className="container">
-                <div className="row justify-content-end">
-                    <div className="col-xl-7 col-lg-7">
-                        <div className="form-wrapper">
+
+        <section className="appointment">
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-12">
+						<div className="section-title">
+							<h2>We Are Always Ready to Help You. Book An Appointment</h2>
+							<img src="assets1/img/section-img.png" alt="#"/>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+						</div>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-lg-6 col-md-12 col-12">
+						<form className="form" action="#">
+							<div className="row">
+								<div className="col-lg-6 col-md-6 col-12">
+									<div className="form-group">
+										<input name="name" type="text" placeholder="Name"/>
+									</div>
+								</div>
+								<div className="col-lg-6 col-md-6 col-12">
+									<div className="form-group">
+										<input name="email" type="email" placeholder="Email"/>
+									</div>
+								</div>
+								<div className="col-lg-6 col-md-6 col-12">
+									<div className="form-group">
+										<input name="phone" type="text" placeholder="Phone"/>
+									</div>
+								</div>
+								<div className="col-lg-6 col-md-6 col-12">
+									<div className="form-group">
+										<div className="nice-select form-control wide" tabindex="0"><span className="current">Department</span>
+											<ul className="list">
+												<li data-value="1" className="option selected ">Department</li>
+												<li data-value="2" className="option">Cardiac Clinic</li>
+												<li data-value="3" className="option">Neurology</li>
+												<li data-value="4" className="option">Dentistry</li>
+												<li data-value="5" className="option">Gastroenterology</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div className="col-lg-6 col-md-6 col-12">
+									<div className="form-group">
+										<div className="nice-select form-control wide" tabindex="0"><span className="current">Doctor</span>
+											<ul className="list">
+												<li data-value="1" className="option selected ">Doctor</li>
+												<li data-value="2" className="option">Dr. Akther Hossain</li>
+												<li data-value="3" className="option">Dr. Dery Alex</li>
+												<li data-value="4" className="option">Dr. Jovis Karon</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div className="col-lg-6 col-md-6 col-12">
+									<div className="form-group">
+										<input type="text" placeholder="Date" id="datepicker"/>
+									</div>
+								</div>
+								<div className="col-lg-12 col-md-12 col-12">
+									<div className="form-group">
+										<textarea name="message" placeholder="Write Your Message Here....."></textarea>
+									</div>
+								</div>
+							</div>
+							<div className="row">
+								<div className="col-lg-5 col-md-4 col-12">
+									<div className="form-group">
+										<div className="button">
+											<button type="submit" className="btn">Book An Appointment</button>
+										</div>
+									</div>
+								</div>
+								<div className="col-lg-7 col-md-8 col-12">
+									<p>( We will be confirm by an Text Message )</p>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div className="col-lg-6 col-md-12 ">
+						<div className="appointment-image">
+							<img src="assets1/img/contact-img.png" alt="#"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+            {/* <div className="container"> */}
+                {/* <div className="row justify-content-end"> */}
+                    {/* <div className="col-xl-7 col-lg-7"> */}
+                        {/* <div className="form-wrapper"> */}
                             {/*Section Tittle  */}
-                            <div className="form-tittle">
+                            {/* <div className="form-tittle">
                                 <div className="row ">
                                     <div className="col-xl-12">
                                         <div className="section-tittle section-tittle2">
@@ -445,9 +536,9 @@ function Home(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/*End Section Tittle  */}
-                            <form id="contact-form" action="#" method="POST">
+                            {/* <form id="contact-form" action="#" method="POST">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-box user-icon mb-30">
@@ -459,7 +550,7 @@ function Home(){
                                             <input type="text" name="email" placeholder="Phone"/>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 mb-30">
+                                    <div className="col-lg-6 col-md-6 mb-30"> */}
                                         {/* <div className="select-items">
                                             <select name="select" id="select2" >
                                                 <option value="">Health Law</option>
@@ -469,7 +560,7 @@ function Home(){
                                                 <option value="">Tamim Sharker</option>
                                             </select>
                                         </div> */}
-                                        <div className="form-box subject-icon mb-30">
+                                        {/* <div className="form-box subject-icon mb-30">
                                             <input type="Health-Law" name="subject" placeholder="Health Law"/>
                                         </div>
                                     </div>
@@ -487,15 +578,15 @@ function Home(){
                                         </div>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                            </form> */}
+                        {/* </div> */}
+                    {/* </div> */}
+                {/* </div> */}
+            {/* </div> */}
             {/* contact left Img*/}
-            <div className="from-left d-none d-lg-block">
+            {/* <div className="from-left d-none d-lg-block">
                 <img src="assets/img/gallery/contact_form.png" alt=""/>
-            </div>
+            </div> */}
         </div>
         {/* Contact form End */}
         {/*? gallery Products Start */}

@@ -2,22 +2,22 @@ import React from 'react'
 import { Link,useLocation } from 'react-router-dom'
 function Header() {
 
-    const activeMenu=(e)=>{
-        document.querySelectorAll('.submenu').forEach(
-            function(e){
-                e.classList.remove('active');
-            }
-        )
-        const childElement = e.target.parentElement.querySelector('.submenu');
-        if(childElement && childElement.classList.contains('submenu')){
-            childElement.classList.add('active');
-        }
-    }
+    // const activeMenu=(e)=>{
+    //     document.querySelectorAll('.submenu').forEach(
+    //         function(e){
+    //             e.classList.remove('active');
+    //         }
+    //     )
+    //     const childElement = e.target.parentElement.querySelector('.submenu');
+    //     if(childElement && childElement.classList.contains('submenu')){
+    //         childElement.classList.add('active');
+    //     }
+    // }
 
-	const location = useLocation();
-	const isLinkActive = (path)=>{
-        return location.pathname == path ? 'active' : "";
-    }
+	// const location = useLocation();
+	// const isLinkActive = (path)=>{
+    //     return location.pathname == path ? 'active' : "";
+    // }
   return (
 
     <header>
@@ -39,13 +39,13 @@ function Header() {
                                 <nav>
                                     <ul id="navigation">
                                         <li><Link to="/" exact className="nav-link" activeClassName="active"> Home</Link></li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><Link to="/about" exact className="nav-link" activeClassName="active"> About</Link></li>
                                         <li> <Link to="/doctor" className="nav-link" activeClassName="active">Doctors</Link></li>
                                         <li> <Link to="/department" className="nav-link" activeClassName="active">Department</Link></li>
                                         {/* <li><a href="department.html">Department</a></li> */}
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><Link to="/blog" className="nav-link" activeClassName="active">Blog</Link>
                                             <ul className="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
+                                            <li><Link to="/blog" className="nav-link" activeClassName="active">Blog</Link></li>
                                                 <li><a href="blog_details.html">Blog Details</a></li>
                                                 <li><a href="elements.html">Element</a></li>
                                             </ul>
