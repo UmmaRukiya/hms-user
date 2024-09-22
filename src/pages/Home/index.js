@@ -1,6 +1,6 @@
 import React from 'react'
 import UserLayout from '../../layouts/UserLayout'
-
+import { Link } from "react-router-dom";
 function Home(){
     return(
         <UserLayout>
@@ -19,13 +19,13 @@ function Home(){
                                             <span>Committed to success</span>
                                             <h1 className="cd-headline letters scale">We care about your 
                                                 <strong className="cd-words-wrapper" style={{width: "291px"}}>
-                                                    <b className="is-visible" style={{opacity: "1"}}><i className="out">h</i><i className="out">e</i><i className="in">a</i><i className="in">l</i><i className="in">t</i><i className="in">h</i></b>
-                                                    <b style={{opacity: "1"}}><i className="in">s</i><i className="in">u</i><i className="out">s</i><i className="out">h</i><i className="out">i</i></b>
+                                                    <b className="is-visible" style={{opacity: "1"}}><i className="in">h</i><i className="in">e</i><i className="in">a</i><i className="in">l</i><i className="in">t</i><i className="in">h</i></b>
+                                                    <b style={{opacity: "1"}}><i className="out">s</i><i className="out">u</i><i className="out">s</i><i className="out">h</i><i className="out">i</i></b>
                                                     <b style={{opacity: "1"}}><i className="out">s</i><i className="out">t</i><i className="out">e</i><i className="out">a</i><i className="out">k</i></b>
                                                 </strong>
                                             </h1>
                                             <p data-animation="fadeInLeft" data-delay="0.1s" className="" style={{animationDelay: "0.1s"}}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi uquip ex ea commodo consequat is aute irure.</p>
-                                            <a href="#" className="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s" tabIndex="0" style={{animationDelay: "0.5s"}}>Appointment <i className="ti-arrow-right"></i></a>
+                                            <a href="#appointment" className="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s" tabIndex="0" style={{animationDelay: "0.5s"}}>Appointment <i className="ti-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ function Home(){
                                                 </strong>
                                             </h1>
                                             <p data-animation="fadeInLeft" data-delay="0.1s" className="" style={{animationDelay: "0.1s"}}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi uquip ex ea commodo consequat is aute irure.</p>
-                                            <a href="#" className="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s" tabIndex="-1" style={{animationDelay:" 0.5s"}}>Appointment <i className="ti-arrow-right"></i></a>
+                                            <a href="#appointment" className="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s" tabIndex="-1" style={{animationDelay:" 0.5s"}}>Appointment <i className="ti-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -69,10 +69,11 @@ function Home(){
                             </div>
                             <p>There arge many variations ohf pacgssages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
                             <div className="about-btn1 mb-30">
-                                <a href="about.html" className="btn about-btn">Find Doctors .<i className="ti-arrow-right"></i></a>
+                                {/* <a href="about.html" className="btn about-btn">Find Doctors .<i className="ti-arrow-right"></i></a> */}
+                                <Link to="/doctor" className="btn about-btn">Find Doctors <i className="ti-arrow-right"></i></Link>
                             </div>
                             <div className="about-btn1 mb-30">
-                                <a href="about.html" className="btn about-btn2">Appointment <i className="ti-arrow-right"></i></a>
+                                <a href="#appointment" className="btn about-btn2">Appointment <i className="ti-arrow-right"></i></a>
                             </div>
                             <div className="about-btn1 mb-30">
                                 <a href="about.html" className="btn about-btn2">Emargency 1 <i className="ti-arrow-right"></i></a>
@@ -160,7 +161,7 @@ function Home(){
                                     <div className="dept_info">
                                         <h3>Dentist with surgical mask holding <br/> scaler near patient</h3 >
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <a href="#" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
+                                        <a href="#appointment" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-lg-5">
@@ -178,7 +179,7 @@ function Home(){
                                     <div className="dept_info">
                                         <h3>Dentist with surgical mask holding <br/> scaler near patient</h3 >
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <a href="#" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
+                                        <a href="#appointment" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-lg-5">
@@ -196,7 +197,7 @@ function Home(){
                                     <div className="dept_info">
                                         <h3>Dentist with surgical mask holding <br/> scaler near patient</h3 >
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <a href="#" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
+                                        <a href="#appointment" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-lg-5">
@@ -214,7 +215,7 @@ function Home(){
                                     <div className="dept_info">
                                         <h3>Dentist with surgical mask holding <br/> scaler near patient</h3 >
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <a href="#" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
+                                        <a href="#appointment" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-lg-5">
@@ -232,7 +233,7 @@ function Home(){
                                     <div className="dept_info">
                                         <h3>Dentist with surgical mask holding <br/> scaler near patient</h3 >
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <a href="#" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
+                                        <a href="#appointment" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-lg-5">
@@ -250,7 +251,7 @@ function Home(){
                                     <div className="dept_info">
                                         <h3>Dentist with surgical mask holding <br/> scaler near patient</h3 >
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <a href="#" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
+                                        <a href="#appointment" className="dep-btn">Appointment<i className="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-lg-5">
@@ -432,7 +433,7 @@ function Home(){
         {/*? Contact form Start */}
         <div className="contact-form-main">
 
-        <section className="appointment">
+        <section className="appointment" id='appointment'>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12">
