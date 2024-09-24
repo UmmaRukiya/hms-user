@@ -440,7 +440,7 @@ function Home(){
 						<div className="appoint-title ">
                             <h1>Appointment</h1>
 							<h2>We Are Always Ready to Help You. Book An Appointment</h2>
-							<img src="assets1/img/section-img.png" alt="#"/>
+							<img src="assets/img/gallery/section-img.png" alt="#"/>
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
 					</div>

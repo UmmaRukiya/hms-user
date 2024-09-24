@@ -9,7 +9,7 @@ function Doctor(){
         {/* Hero Start */}
         <div className="slider-area2">
             <div className="slider-height2 d-flex align-items-center">
-                <div className="container">
+                {/* <div className="container">
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="hero-cap hero-cap2 text-center">
@@ -17,7 +17,7 @@ function Doctor(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         {/* Hero End */}
