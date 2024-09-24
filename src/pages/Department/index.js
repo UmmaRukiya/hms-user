@@ -74,6 +74,49 @@ function Department(){
                                         <h4>Blood Screening</h4>
                                     </a>
                                 </li>
+                                {/* added */}
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-kidney"></i>
+                                        <h4>Nephrology </h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Blood Screening</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Blood Screening</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Blood Screening</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Blood Screening</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Blood Screening</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Blood Screening</h4>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

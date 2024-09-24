@@ -41,7 +41,25 @@ function Header() {
                                         <li><Link to="/" exact className="nav-link" activeClassName="active"> Home</Link></li>
                                         <li><Link to="/about" exact className="nav-link" activeClassName="active"> About</Link></li>
                                         <li> <Link to="/doctor" className="nav-link" activeClassName="active">Doctors</Link></li>
-                                        <li> <Link to="/department" className="nav-link" activeClassName="active">Department</Link></li>
+                                        <li> <Link to="/department" className="nav-link" activeClassName="active">Department</Link>
+                                            <ul className="submenu">
+                                            <li><Link to="/department" className="nav-link" activeClassName="active">Medicine</Link></li>
+                                                <li><a href="blog_details.html">Neuro Medicine</a></li>
+                                                <li><a href="elements.html">Cardiology</a></li>
+                                                <li><a href="elements.html">Gastroenterology</a></li>
+                                                <li><a href="elements.html">Ent</a></li>
+                                                <li><a href="elements.html">Gynee & OBS</a></li>
+                                                <li><a href="elements.html">Nephrology</a></li>
+                                                <li><a href="elements.html">Orthopedics</a></li>
+                                                <li><a href="elements.html">Oncology</a></li>
+                                                <li><a href="elements.html">Psychiatry</a></li>
+                                                <li><a href="elements.html">Pediatrics</a></li>
+                                                <li><a href="elements.html">Physical Medicine</a></li>
+                                                <li><a href="elements.html">Surgery</a></li>
+                                                <li><a href="elements.html">Urology</a></li>
+                                               
+                                            </ul>
+                                        </li>
                                         {/* <li><a href="department.html">Department</a></li> */}
                                         <li><Link to="/blog" className="nav-link" activeClassName="active">Blog</Link>
                                             <ul className="submenu">

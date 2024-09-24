@@ -33,6 +33,9 @@ function Doctor(){
                         </div>
                     </div>
                 </div>
+                <div className="section-tittle mb-100"> 
+                <h2>Medicine</h2>
+                </div>
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
                         <div className="single-team mb-30">
@@ -114,6 +117,466 @@ function Doctor(){
                             <div className="team-caption">
                                 <h3><a href="#">Alvin Maxwell</a></h3>
                                 <span>Creative UI Designer</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div className="section-tittle mb-100"> 
+                        <h2>Neuro Medicine</h2>
+                    </div>
+                    {/* Added */}
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div className="section-tittle mb-100"> 
+                        <h2>Cardiology</h2>
+                    </div>
+                <div className="row">
+                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="section-tittle mb-100"> 
+                    <h2>Gastroenterology</h2>
+                </div>
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="section-tittle mb-100"> 
+                    <h2>Gynee & OBS</h2>
+                </div>
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
+                                {/* Team social */}
+                                <div className="team-social">
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fas fa-globe"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="section-tittle mb-100"> 
+                <h2>Nephrology</h2>
+                </div>
+                <div className="row">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div className="single-team mb-30">
+                            <div className="team-img">
+                                <img src="assets/img/gallery/team3.png" alt=""/>
+                            </div>
+                            <div className="team-caption">
+                                <h3><a href="#">Maria Smith</a></h3>
+                                <span>Agency Manager</span>
                                 {/* Team social */}
                                 <div className="team-social">
                                     <a href="#"><i className="fab fa-twitter"></i></a>

@@ -646,7 +646,7 @@
 }
 
 .nav .nav-item .nav-link:hover {
-	background: linear-gradient(to left, #4481eb 0%, #04befe 100%); /* Background color on hover */
+	background: radial-gradient(circle at -3.7% -5%, rgb(113, 213, 225) 0.3%, rgb(73, 146, 226) 90.5%);
 	transform: scale(1.06);
 	color:white !important;
 }
