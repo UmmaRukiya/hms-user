@@ -6,7 +6,7 @@ function Blog(){
         <UserLayout>
 
 {/* Breadcrumbs */}
-		<div className="breadcrumbs overlay">
+		{/* <div className="breadcrumbs overlay">
 			<div className="container">
 				<div className="bread-inner">
 					<div className="row">
@@ -21,8 +21,24 @@ function Blog(){
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> */}
 		{/* End Breadcrumbs */}
+
+		 {/*? Hero Start */}
+		 <div className="slider-area2">
+            <div className="slider-height2 d-flex align-items-center">
+                <div className="container">
+                    <div className="row">
+                    <div className="col-xl-12">
+                        <div className="hero-cap hero-cap2 text-center">
+                            <h2>Blog</h2>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {/* Hero End */}
 		
 		{/* Single News */}
 		<section className="news-single section">
@@ -34,7 +50,7 @@ function Blog(){
 								<div className="single-main">
 									{/* News Head */}
 									<div className="news-head">
-										<img src="assets1/img/blog1.jpg" alt="#"/>
+										<img src="assets/img/gallery/blog1.jpg" alt="#"/>
 									</div>
 									{/* News Title */}
 									<h1 className="news-title"><a href="news-single.html">More than 80 clinical trials launch to test of the coronavirus .</a></h1>
@@ -57,12 +73,12 @@ function Blog(){
 											<div className="row">
 												<div className="col-lg-6 col-md-6 col-12">
 													<div className="single-image">
-														<img src="assets1/img/blog2.jpg" alt="#"/>
+														<img src="assets/img/gallery/blog2.jpg" alt="#"/>
 													</div>
 												</div>
 												<div className="col-lg-6 col-md-6 col-12">
 													<div className="single-image">
-														<img src="assets1/img/blog3.jpg" alt="#"/>
+														<img src="assets/img/gallery/blog3.jpg" alt="#"/>
 													</div>
 												</div>
 											</div>
@@ -100,7 +116,7 @@ function Blog(){
 										<div className="single-comments">
 											<div className="main">
 												<div className="head">
-													<img src="assets1/img/author1.jpg" alt="#"/>
+													<img src="assets/img/gallery/author1.jpg" alt="#"/>
 												</div>
 												<div className="body">
 													<h4>Afsana Mimi</h4>
@@ -115,7 +131,7 @@ function Blog(){
 										<div className="single-comments left">
 											<div className="main">
 												<div className="head">
-													<img src="assets1/img/author2.jpg" alt="#"/>
+													<img src="assets/img/gallery/author2.jpg" alt="#"/>
 												</div>
 												<div className="body">
 													<h4>Naimur Rahman</h4>
@@ -130,7 +146,7 @@ function Blog(){
 										<div className="single-comments">
 											<div className="main">
 												<div className="head">
-													<img src="assets1/img/author3.jpg" alt="#"/>
+													<img src="assets/img/gallery/author3.jpg" alt="#"/>
 												</div>
 												<div className="body">
 													<h4>Suriya Molharta</h4>
@@ -214,7 +230,7 @@ function Blog(){
 								{/* Single Post */}
 								<div className="single-post">
 									<div className="image">
-										<img src="assets1/img/blog-sidebar1.jpg" alt="#"/>
+										<img src="assets/img/gallery/blog-sidebar1.jpg" alt="#"/>
 									</div>
 									<div className="content">
 										<h5><a href="#">We have annnocuced our new product.</a></h5>

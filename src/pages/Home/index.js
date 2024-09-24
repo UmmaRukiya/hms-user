@@ -437,7 +437,8 @@ function Home(){
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12">
-						<div className="section-title">
+						<div className="appoint-title ">
+                            <h1>Appointment</h1>
 							<h2>We Are Always Ready to Help You. Book An Appointment</h2>
 							<img src="assets1/img/section-img.png" alt="#"/>
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
@@ -515,7 +516,7 @@ function Home(){
 					</div>
 					<div className="col-lg-6 col-md-12 ">
 						<div className="appointment-image">
-							<img src="assets1/img/contact-img.png" alt="#"/>
+							<img src="assets/img/gallery/contact-img.png" alt="#"/>
 						</div>
 					</div>
 				</div>
