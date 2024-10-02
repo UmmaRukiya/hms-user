@@ -77,44 +77,74 @@ function Department(){
                                 {/* added */}
                                 <li className="nav-item">
                                     <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
-                                        <i className="flaticon-kidney"></i>
+                                        <i className="fi fi-rs-brain"></i>
                                         <h4>Nephrology </h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
                                         <i className="flaticon-cell"></i>
-                                        <h4>Blood Screening</h4>
+                                        <h4>Surgery</h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
                                         <i className="flaticon-cell"></i>
-                                        <h4>Blood Screening</h4>
+                                        <h4>Psychiatry</h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
                                         <i className="flaticon-cell"></i>
-                                        <h4>Blood Screening</h4>
+                                        <h4>Oncology</h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
                                         <i className="flaticon-cell"></i>
-                                        <h4>Blood Screening</h4>
+                                        <h4>Gynee & OBS</h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
                                         <i className="flaticon-cell"></i>
-                                        <h4>Blood Screening</h4>
+                                        <h4>Gastroenterology</h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
                                         <i className="flaticon-cell"></i>
-                                        <h4>Blood Screening</h4>
+                                        <h4>Orthopedics</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Orthopedics</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Orthopedics</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Orthopedics</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Orthopedics</h4>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
+                                        <i className="flaticon-cell"></i>
+                                        <h4>Orthopedics</h4>
                                     </a>
                                 </li>
                             </ul>

@@ -2,7 +2,8 @@ import React from 'react';
 import Header from './include/header';
 
 import Footer from './include/footer';
-
+import 'font-awesome/css/font-awesome.min.css';
+import 'react-flaticons';
 function UserLayout({children}) {
   return (
         <div id="app">
